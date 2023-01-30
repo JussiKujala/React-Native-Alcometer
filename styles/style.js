@@ -5,16 +5,34 @@ export default StyleSheet.create({
 
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        // backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
       },
-      hiddenContainer: {
+      button:{
+        borderWidth: 1,
+        borderRadius: 6,
+        padding: 10,
+      },
+      dark:{
+        borderColor: 'white',
         color: 'white',
-        flex: 1,
-        backgroundColor: 'black',
-        alignItems: 'center',
-        justifyContent: 'center',
+        backgroundColor: 'gray',
+
       },
+      light:{
+        backgroundColor: 'white',
+      },
+      heading:{
+        fontSize: 30,
+        fontWeight:'bold',
+
+      },
+      textStyle:{
+        fontSize: 20
+      },
+      result: {
+        fontSize: 30,
+      }
 
 })
